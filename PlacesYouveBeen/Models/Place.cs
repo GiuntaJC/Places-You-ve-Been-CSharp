@@ -31,7 +31,7 @@ namespace PlacesYouveBeen.Models
 
     public static Place Find(int searchId)
     {
-      return _instances[searchId];
+      return _instances[searchId - 1];
     }
   }
 }
